@@ -1,0 +1,139 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title> StudHub </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+        <link rel="stylesheet" href="css/vendor.css">
+        <!-- Theme initialization -->
+        <script>
+            var themeSettings = (localStorage.getItem('themeSettings')) ? JSON.parse(localStorage.getItem('themeSettings')) :
+            {};
+            var themeName = themeSettings.themeName || '';
+            if (themeName)
+            {
+                document.write('<link rel="stylesheet" id="theme-style" href="css/app-' + themeName + '.css">');
+            }
+            else
+            {
+                document.write('<link rel="stylesheet" id="theme-style" href="css/app.css">');
+            }
+        </script>
+    </head>
+
+    <body>
+        <div class="main-wrapper">
+            <div class="navigation" id="navigation">
+                <header class="header-navigation">
+                    <div class="header-navigation-block"> StudHub сторінка навігації </div>
+                </header>
+                <article class="content">
+                    <section class="section">
+                        <div class="row">
+                            <div class="col col-xs-12 col-sm-12 col-md-6 col-xl-4">
+                                <div class="card tasks sameheight-item" data-exclude="xs,sm">
+                                    <div class="card-header bordered">
+                                        <div class="header-block">
+                                            <h3 class="title"> Головна сторінка </h3>
+                                        </div>
+                                    </div>
+                                    <div class="card-block">
+                                        <div class="tasks-block">
+                                            <ul class="item-list">
+                                                <li class="item"> <a href="index.html">Головна сторінка</a> </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-xs-12 col-sm-12 col-md-6 col-xl-4">
+                                <div class="card tasks sameheight-item" data-exclude="xs,sm">
+                                    <div class="card-header bordered">
+                                        <div class="header-block">
+                                            <h3 class="title"> Студент </h3>
+                                        </div>
+                                    </div>
+                                    <div class="card-block">
+                                        <div class="tasks-block">
+                                            <ul class="item-list">
+                                                <li class="item"> <a href="index.html">Головна сторінка</a> </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-xs-12 col-sm-12 col-md-6 col-xl-4">
+                                <div class="card tasks sameheight-item" data-exclude="xs,sm">
+                                    <div class="card-header bordered">
+                                        <div class="header-block">
+                                            <h3 class="title"> Викладач </h3>
+                                        </div>
+                                    </div>
+                                    <div class="card-block">
+                                        <div class="tasks-block">
+                                            <ul class="item-list">
+                                                <li class="item"> <a href="index.html">Головна сторінка</a> </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="section">
+                        <div class="row">
+                            <div class="col col-xs-12 col-sm-12 col-md-6 col-xl-4">
+                                <div class="card tasks sameheight-item" data-exclude="xs,sm">
+                                    <div class="card-header bordered">
+                                        <div class="header-block">
+                                            <h3 class="title"> Адміністратор </h3>
+                                        </div>
+                                    </div>
+                                    <div class="card-block">
+                                        <div class="tasks-block">
+                                            <ul class="item-list">
+                                                <li class="item"> <a href="index.html">Головна сторінка</a> </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-xs-12 col-sm-12 col-md-6 col-xl-4">
+                                <div class="card tasks sameheight-item" data-exclude="xs,sm">
+                                    <div class="card-header bordered">
+                                        <div class="header-block">
+                                            <h3 class="title"> Супер Адміністратор </h3>
+                                        </div>
+                                    </div>
+                                    <div class="card-block">
+                                        <div class="tasks-block">
+                                            <ul class="item-list">
+                                                <li class="item"> <a href="index.html">Головна сторінка</a> </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </article>
+            </div>
+        </div>
+        <!-- Reference block for JS -->
+        <div class="ref" id="ref">
+            <div class="color-primary"></div>
+            <div class="chart">
+                <div class="color-primary"></div>
+                <div class="color-secondary"></div>
+            </div>
+        </div>
+        <script src="js/vendor.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+
+</html>

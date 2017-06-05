@@ -1,0 +1,67 @@
+<svg id="Bacground" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""/>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?></metadata>
+<defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        fill: #3ac2ea;
+      }
+
+      .cls-3 {
+        fill: #a7d200;
+      }
+
+      .cls-4 {
+        fill: #ffc641;
+      }
+
+      .cls-5 {
+        fill: #ff5d56;
+      }
+    </style>
+    <filter id="filter" x="-4" y="-1" width="57" height="57" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="3" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="2.646"/>
+      <feFlood result="flood" flood-opacity="0.35"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="Background_4" data-name="Background 4" class="cls-1" d="M18.5,2h22a5.5,5.5,0,0,1,0,11h-22A5.5,5.5,0,0,1,18.5,2ZM7.5,13h22a5.5,5.5,0,0,1,0,11H7.5A5.5,5.5,0,0,1,7.5,13Zm11,11h22a5.5,5.5,0,0,1,0,11h-22A5.5,5.5,0,0,1,18.5,24ZM7.5,35h22a5.5,5.5,0,0,1,0,11H7.5A5.5,5.5,0,0,1,7.5,35Z"/>
+  <rect id="Line_1" data-name="Line 1" class="cls-2" x="15.563" y="4.563" width="27.875" height="5.875" rx="2.938" ry="2.938"/>
+  <rect id="Line_2" data-name="Line 2" class="cls-3" x="4.563" y="15.563" width="27.875" height="5.875" rx="2.938" ry="2.938"/>
+  <rect id="Line_3" data-name="Line 3" class="cls-4" x="16.313" y="26.563" width="27.844" height="5.875" rx="2.938" ry="2.938"/>
+  <rect id="Line_4" data-name="Line 4" class="cls-5" x="4.563" y="37.563" width="27.875" height="5.875" rx="2.938" ry="2.938"/>
+</svg>

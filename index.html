@@ -1,0 +1,156 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title> StudHub </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+        <link rel="stylesheet" href="css/vendor.css">
+        <!-- Theme initialization -->
+        <script>
+            var themeSettings = (localStorage.getItem('themeSettings')) ? JSON.parse(localStorage.getItem('themeSettings')) :
+            {};
+            var themeName = themeSettings.themeName || '';
+            if (themeName)
+            {
+                document.write('<link rel="stylesheet" id="theme-style" href="css/app-' + themeName + '.css">');
+            }
+            else
+            {
+                document.write('<link rel="stylesheet" id="theme-style" href="css/app.css">');
+            }
+        </script>
+    </head>
+
+    <body>
+        <div class="main-wrapper index">
+            <header class="index-header">
+                <div class="container">
+                    <nav class="navbar navbar-toggleable-sm navbar-inverse"> <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#indexNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button> <a class="navbar-brand align-middle" href="main.html">
+                    <img src="assets/imgs/logo/32x32/logo32x32.svg" class="d-inline-block" alt="">
+                    StudHub
+                </a>
+                        <div class="collapse navbar-collapse" id="indexNavbar">
+                            <form class="form-inline ml-auto my-2 my-sm-0"> <button class="btn btn-link mr-sm-2" type="button" onclick="location.href='/login.html'">Логін</button> <button class="btn btn-outline-primary" type="button" onclick="location.href='/signup.html'">Реєстрація</button> </form>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+            <div class="main">
+                <div class="main-article-wrapper main-article-wrapper-first">
+                    <article class="container">
+                        <section class="section">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-8">
+                                    <h1 class="mb-4">Створено для студентів</h1>
+                                    <h5 class="text-light">StudHub - це платформа, що розроблена для зручностого спілкування та комунікації між студентами та викладачами. Тут Ви можете обмінюватись повідомленнями та матеріалами, організовувати навчальний процес та багато іншого.</h5>
+                                </div>
+                                <div class="col-sm-12 col-md-4"> </div>
+                            </div>
+                        </section>
+                        <section class="section"> <button class="btn btn-primary" onClick="location.href='/signup.html'">Розпочати</button> </section>
+                    </article>
+                </div>
+                <div class="main-article-wrapper main-article-wrapper-second">
+                    <article class="container">
+                        <section class="section">
+                            <h3 class="mb-4">Партнери</h3>
+                            <div class="row">
+                                <div class="col"> <a href="http://lp.edu.ua/">
+                            <img class="partner-logo mb-2 mx-auto d-block" src="assets/imgs/partners/nulp.png" alt="">
+                        </a>
+                                    <h5 class="text-center">Національний університет "Львівська політехніка"</h5>
+                                </div>
+                                <div class="col"> <a href="http://www.lnu.edu.ua/">
+                            <img class="partner-logo mb-2 mx-auto d-block" src="assets/imgs/partners/lnu.png" alt="">
+                        </a>
+                                    <h5 class="text-center">ЛНУ імені Івана Франка</h5>
+                                </div>
+                                <div class="col"> <a href="http://kpi.ua/">
+                            <img class="partner-logo mb-2 mx-auto d-block" src="assets/imgs/partners/kpi.png" alt="">
+                        </a>
+                                    <h5 class="text-center">КПІ імені Ігоря Сікорського</h5>
+                                </div>
+                                <div class="col"> <a href="http://www.univ.kiev.ua/">
+                            <img class="partner-logo mb-2 mx-auto d-block" src="assets/imgs/partners/knu.gif" alt="">
+                        </a>
+                                    <h5 class="text-center">КНУ імені Тараса Шевченка</h5>
+                                </div>
+                            </div>
+                        </section>
+                    </article>
+                </div>
+            </div>
+            <footer class="index-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="site-footer-marketing-col mb-3 pr-3">
+                                <h3 class="mb-2">StudHub</h3>
+                                <ul class="list-style-none">
+                                    <li class="lh-condensed mb-2">
+                                        <h5 class="text-light">© 2017</h5>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="site-footer-marketing-col mb-3 pr-3">
+                                <h4 class="mb-2">Можливості</h4>
+                                <ul class="list-style-none">
+                                    <li class="mb-2"><a href="http://localhost:4000/about.html">Студентам</a></li>
+                                    <li class="mb-2"><a href="http://localhost:4000/about.html">Викладачас</a></li>
+                                    <li class="mb-2"><a href="http://localhost:4000/about.html">Університетам</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="site-footer-marketing-col mb-3 pr-3">
+                                <h4 class="mb-2">Платформа</h4>
+                                <ul class="list-style-none">
+                                    <li class="mb-2"><a href="http://localhost:4000/developers.html">Розробникам</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="site-footer-marketing-col mb-3 pr-3">
+                                <h4 class="mb-2">Компанія</h4>
+                                <ul class="list-style-none">
+                                    <li class="mb-2"><a href="http://localhost:4000/about.html">Про</a></li>
+                                    <li class="mb-2"><a href="http://localhost:4000/community.html">Блог</a></li>
+                                    <li class="mb-2"><a href="http://localhost:4000/about.html">Засновники</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="site-footer-marketing-col mb-3 pr-3">
+                                <h4 class="mb-2">Ресурси</h4>
+                                <ul class="list-style-none">
+                                    <li class="mb-2"><a href="http://localhost:4000/about.html">Правила використання</a></li>
+                                    <li class="mb-2"><a href="http://localhost:4000/about.html">Політика конфіденційності</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <!-- Reference block for JS -->
+        <div class="ref" id="ref">
+            <div class="color-primary"></div>
+            <div class="chart">
+                <div class="color-primary"></div>
+                <div class="color-secondary"></div>
+            </div>
+        </div>
+        <script src="js/vendor.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+
+</html>

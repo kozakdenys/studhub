@@ -1,0 +1,67 @@
+<svg id="Bacground" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="240" height="240" viewBox="0 0 240 240">
+  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""/>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?></metadata>
+<defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        fill: #3ac2ea;
+      }
+
+      .cls-3 {
+        fill: #a7d200;
+      }
+
+      .cls-4 {
+        fill: #ffc641;
+      }
+
+      .cls-5 {
+        fill: #ff5d56;
+      }
+    </style>
+    <filter id="filter" x="4" y="7" width="233" height="233" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="3" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="2.646"/>
+      <feFlood result="flood" flood-opacity="0.35"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="Background_4" data-name="Background 4" class="cls-1" d="M80,10H215a15,15,0,0,1,15,15V50a15,15,0,0,1-15,15H80A15,15,0,0,1,65,50V25A15,15,0,0,1,80,10ZM25,65H160a15,15,0,0,1,15,15v25a15,15,0,0,1-15,15H25a15,15,0,0,1-15-15V80A15,15,0,0,1,25,65Zm55,55H215a15,15,0,0,1,15,15v25a15,15,0,0,1-15,15H80a15,15,0,0,1-15-15V135A15,15,0,0,1,80,120ZM25,175H160a15,15,0,0,1,15,15v25a15,15,0,0,1-15,15H25a15,15,0,0,1-15-15V190A15,15,0,0,1,25,175Z"/>
+  <rect id="Line_1" data-name="Line 1" class="cls-2" x="77.813" y="22.813" width="139.375" height="29.375" rx="10" ry="10"/>
+  <rect id="Line_2" data-name="Line 2" class="cls-3" x="22.813" y="77.813" width="139.375" height="29.376" rx="10" ry="10"/>
+  <rect id="Line_3" data-name="Line 3" class="cls-4" x="81.5" y="132.813" width="139.313" height="29.375" rx="10" ry="10"/>
+  <rect id="Line_4" data-name="Line 4" class="cls-5" x="22.813" y="187.813" width="139.375" height="29.375" rx="10" ry="10"/>
+</svg>
